@@ -1,0 +1,77 @@
+/* Adding color to the window */
+.App {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Making the font size 50px for h1 */
+h1 {
+    font-size: 50px;
+}
+
+/* Making the font size 25px for h2 */
+h2 {
+    font-size: 25px;
+}
+
+/* Making the font size 15px for p */
+p {
+    font-size: 15px;
+}
+
+/* Making a standard height and width for images */
+img {
+    height: 300px;
+    width: 300px;
+}
+
+/* Making the VT logo a certain size */
+.VT {
+    height:100px;
+    width:auto;
+}
+
+/* Designing the flex containers */
+.flex-container {
+    display: flex;
+    background-color: rgb(151, 151, 151);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+}
+
+/* Designing container for table */
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Designing the flex */
+.flex {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-right: 200px;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+/* Designing the box */
+.box {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Designing the area on the page for the footer */
+.foot {
+    padding-top: 40px;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* The color of the footer */
+footer {
+    color: white;
+}
+
